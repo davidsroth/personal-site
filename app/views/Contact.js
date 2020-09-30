@@ -53,29 +53,29 @@ const useInterval = (callback, delay) => {
 };
 
 const Contact = () => {
-  const hold = 50; // ticks to wait after message is complete before rendering next message
-  const delay = 50; // tick length in mS
+  // const hold = 50; // ticks to wait after message is complete before rendering next message
+  // const delay = 50; // tick length in mS
 
-  const [idx, updateIter] = useState(0); // points to current message
-  const [message, updateMessage] = useState(messages[idx]);
-  const [char, updateChar] = useState(messages[idx].length); // points to current char
-  const [isActive, setIsActive] = useState(true); // disable when all messages are printed
+  // const [idx, updateIter] = useState(0); // points to current message
+  // const [message, updateMessage] = useState(messages[idx]);
+  // const [char, updateChar] = useState(messages[idx].length); // points to current char
+  // const [isActive, setIsActive] = useState(true); // disable when all messages are printed
 
-  useInterval(() => {
-    let newIdx = idx;
-    let newChar = char;
-    if (char - hold >= messages[idx].length) {
-      newIdx += 1;
-      newChar = 0;
-    }
-    if (newIdx === messages.length) {
-      setIsActive(false);
-    } else {
-      updateMessage(messages[newIdx].slice(0, newChar));
-      updateIter(newIdx);
-      updateChar(newChar + 1);
-    }
-  }, isActive ? delay : null);
+  // useInterval(() => {
+  //   let newIdx = idx;
+  //   let newChar = char;
+  //   if (char - hold >= messages[idx].length) {
+  //     newIdx += 1;
+  //     newChar = 0;
+  //   }
+  //   if (newIdx === messages.length) {
+  //     setIsActive(false);
+  //   } else {
+  //     updateMessage(messages[newIdx].slice(0, newChar));
+  //     updateIter(newIdx);
+  //     updateChar(newChar + 1);
+  //   }
+  // }, isActive ? delay : null);
 
   return (
     <Main>
@@ -86,7 +86,7 @@ const Contact = () => {
             <h2><Link to="/contact">Contact</Link></h2>
           </div>
         </header>
-        <div className="email-at">
+        {/* <div className="email-at">
           <p>Feel free to get in touch. You can email me at: </p>
           <div
             className="inline-container"
@@ -99,7 +99,7 @@ const Contact = () => {
               <span>@mldangelo.com</span>
             </a>
           </div>
-        </div>
+        </div> */}
         <ul className="icons">
           {data.map((s) => (
             <li key={s.label}>

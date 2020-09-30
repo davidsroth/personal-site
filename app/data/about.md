@@ -43,9 +43,6 @@ You can ask me in person for other stories that I'm afraid to share with the int
 <br><br>
 #### I like
 - Skiing
-- Sailing and the sea
-- Space
-- Summer
 - [Books](https://www.goodreads.com/mdangelo)
 - Colored pencils (Faber-Castell Polychromos)
 - Podcasts ([The Daily](https://www.nytimes.com/column/the-daily), [Planet Money](https://www.npr.org/sections/money/), [The Indicator](https://www.npr.org/podcasts/510325/the-indicator-from-planet-money), [99% Invisible](https://99percentinvisible.org/episodes/), [The Economist](http://radio.economist.com/), [Radiolab](https://www.wnycstudios.org/shows/radiolab), [Hidden Brain](https://www.npr.org/series/423302056/hidden-brain), [Inquiring Minds](https://inquiring.show), and others)
@@ -54,8 +51,8 @@ You can ask me in person for other stories that I'm afraid to share with the int
 
 #### Travel / Geography
 
-- I am from originally from Buffalo, New York. I have since lived in
-Palo Alto, Mountain View, San Francisco, Seattle, and New York.
+- I am from originally from Teaneck, NJ. I have since lived in
+Israel, Manhattan and Brooklyn.
 
 - I've been to ~ 50 countries, some of which I have forgotten, and many of which I would like to revisit.
 
